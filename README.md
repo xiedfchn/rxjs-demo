@@ -9,3 +9,13 @@
 - combineLatest - Combines multiple Observables to create an Observable whose values are calculated from the latest values of each of its input Observables.
 - forkJoin - Combines multiple Observables to create an Observable. Wait for Observables to complete and then combine last values they emmitted.
 - merge - Creates an output Observable which concurrently emits all values from every given input Observable.
+
+### Transformation Operators
+- tap - 
+-
+-
+
+
+### Utility Operators
+- tap - Used to perform side-effects for notifications from the source observable
+- delay - Delays the emission of items from the source Observable by a given timeout or until a given Date
