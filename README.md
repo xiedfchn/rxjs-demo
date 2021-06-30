@@ -13,9 +13,9 @@
 ### Transformation Operators
 - map - Applies a given project function to each value emitted by the source Observable, and emits the resulting values as an Observable.
 - mapTo - Emits the given constant value on the output Observable every time the source Observable emits a value.
-- mergeMap* - Projects each source value to an Observable which is merged in the output Observable.
-- pairWise* - Groups pairs of consecutive emissions together and emits them as an array of two values.
-- switchMap* - Projects each source value to an Observable which is merged in the output Observable, emitting values only from the most recently projected Observable.
+- mergeMap - Projects each source value to an Observable which is merged in the output Observable.
+- pairWise - Groups pairs of consecutive emissions together and emits them as an array of two values.
+- switchMap - Projects each source value to an Observable which is merged in the output Observable, emitting values only from the most recently projected Observable.
 
 ### Filtering Operators
 - debounceTime
