@@ -17,7 +17,10 @@
 - pairWise* - Groups pairs of consecutive emissions together and emits them as an array of two values.
 - switchMap* - Projects each source value to an Observable which is merged in the output Observable, emitting values only from the most recently projected Observable.
 
-
+### Filtering Operators
+- debounceTime
+- distinct
+- takeUntil
 ### Utility Operators
 - tap - Used to perform side-effects for notifications from the source observable
 - delay - Delays the emission of items from the source Observable by a given timeout or until a given Date
