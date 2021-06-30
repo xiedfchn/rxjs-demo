@@ -20,8 +20,9 @@
 ### Filtering Operators
 Emits a notification from the source Observable only after a particular time span has passed without another source emission.
 - debounceTime - emits a notification from the source Observable only after a particular time span has passed without another source emission.
-- distinct
-- takeUntil
+- distinctUntilChanged
+- takeUntil - Emits the values emitted by the source Observable until a notifier Observable emits a value.
+
 ### Utility Operators
 - tap - Used to perform side-effects for notifications from the source observable
 - delay - Delays the emission of items from the source Observable by a given timeout or until a given Date
