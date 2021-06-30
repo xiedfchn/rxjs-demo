@@ -18,7 +18,8 @@
 - switchMap - Projects each source value to an Observable which is merged in the output Observable, emitting values only from the most recently projected Observable.
 
 ### Filtering Operators
-- debounceTime
+Emits a notification from the source Observable only after a particular time span has passed without another source emission.
+- debounceTime - emits a notification from the source Observable only after a particular time span has passed without another source emission.
 - distinct
 - takeUntil
 ### Utility Operators
