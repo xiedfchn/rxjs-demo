@@ -1,11 +1,11 @@
 # rxjs-demo
 
-## Use case
+## Use cases
 
-mergeMap for nested requests
-forkJoin to merge multiple requests
-debounceTime to multiple clicks
-takeUntil for cancelling http requests.
+- mergeMap for nested requests
+- forkJoin to merge multiple requests
+- debounceTime to multiple clicks
+- takeUntil for cancelling http requests.
 
 ## Operators
 ### Creation Operators
