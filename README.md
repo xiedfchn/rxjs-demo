@@ -1,5 +1,12 @@
 # rxjs-demo
 
+## Use case
+
+mergeMap for nested requests
+forkJoin to merge multiple requests
+debounceTime to multiple clicks
+takeUntil for cancelling http requests.
+
 ## Operators
 ### Creation Operators
 - of -  converts the arguments to an observable sequence.
